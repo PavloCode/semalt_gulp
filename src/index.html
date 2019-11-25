@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="theme-color" content="#000000">
+    <meta name="copyright" content="Author">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+    <meta name="apple-mobile-web-app-title" content="Application Name">
+    <meta name="msapplication-TileImage" content="images/favicons/144x144.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>Placeholder title</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <link rel="stylesheet" href="css/styles.min.css">
+
+</head>
+
+<body>
+    <!-- header section-->
+    //='./html/header.html'
+    <!-- progect section -->
+    //='./html/progect.html'
+    <!-- ranking section -->
+    //='./html/ranking.html'
+    <!-- dynamics section -->
+    //='./html/dynamics.html'
+    <!-- footer section -->
+    //='./html/footer.html'
+
+    <script>
+        Highcharts.chart('container', {
+            chart: {
+                marginTop: -20,
+                spacingBottom: 0,
+                spacingLeft: 0,
+                marginBottom: 50
+            },
+            legend: {
+                enabled: true,
+                width: 437,
+                itemStyle: {
+                    color: '#000',
+                    fontSize: 9,
+                }
+            },
+            title: {
+                text: '',
+            },
+            xAxis: {
+                categories: ['', 'May1', '', 'May7', '', '', 'May14', '', '', 'May21', '', '', 'May28'],
+                labels: {
+                    style: {
+                        fontSize: 12,
+                    }
+                },
+            },
+            yAxis: {
+                labels: {
+                    style: {
+                        color: '#C2CFE0',
+                        fontSize: 12,
+                        textTransform: 'Uppercase'
+                    }
+                },
+                title: {
+                    text: 'Numbet of keywords',
+                    style: {
+                        color: '#C2CFE0',
+                        fontSize: 12,
+                    }
+                },
+            },
+            series: [{
+                name: 'Top 1',
+                data: [3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000],
+                color: '#0288D1',
+                pointStart: 0,
+            }, {
+                name: 'Top 3',
+                data: [2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500],
+                color: '#7E4CAF',
+                pointStart: 0,
+            }, {
+                name: 'Top 10',
+                data: [2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000],
+                color: '#27A69A',
+                pointStart: 0,
+            }, {
+                name: 'Top 30',
+                data: [1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500],
+                color: '#B71C1C',
+                pointStart: 0,
+            }, {
+                name: 'Top 50',
+                data: [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000],
+                color: '#FF5722',
+                pointStart: 0,
+            }, {
+                name: 'Top 100',
+                data: [500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500],
+                color: '#04C38B',
+                text: 'asdasdasd',
+                pointStart: 0,
+            }, ],
+        });
+    </script>
+    <script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>

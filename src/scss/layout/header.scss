@@ -1,0 +1,42 @@
+/* header-start */
+
+.header .container {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    box-shadow: 0 4px 4px -6px black;
+    margin-bottom: 17px;
+}
+
+.header-logo {
+    display: inline-block;
+}
+
+.header-title {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 19px;
+    color: #37474F;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #0288D1;
+}
+
+.header-date {
+    color: #A4A6B3;
+}
+
+
+/* header-end */
